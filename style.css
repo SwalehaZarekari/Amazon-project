@@ -124,6 +124,7 @@
     font-weight: 700;
 }
 
+/*    pannel */
 
 .pannel {
     height:39px;
@@ -190,5 +191,175 @@
 .sec-1 a:hover {
     color:brown;
 }
+
+
+/* all photo secton */
+
+.products-section{
+    display: flex;
+    flex-wrap: wrap; /* its like 4 box se zyade liye to saare box ek line mai aaenge small hoke due to flex wo s4 box in one line spread honge*/
+    justify-content: space-evenly;
+    background-color:#FFD1DA;
+}
+
+.box{
+    height: 370px;
+    width: 320px; /* due to this screen ka 100% width mai se 22% width har box ke liye aaenga and 4 box ek line mai aanege  so we can take 22% also*/
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+}
+
+.image {
+    height: 290px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-cont {
+    margin-left: 1rem; /* 1rem=15 or 16px*/
+    margin-right: 1rem;
+}
+
+span{
+    font-size: 13px;
+    color: #007185;
+}
+
+span:hover{
+    color:brown;
+}
+
+/* footer part*/
+
+.bottom-pannel-1 {
+    background-color:  #37475a;
+    height: 49px;
+    color:#FFFFFF;
+    font-size:0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-pannel-2{
+    background-color: #222f3d;
+    color:white ;
+    height: 318px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul p{
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight:700;
+
+}
+
+ul a{
+    display: block;  /* due to this inline elements saare next line mai aaenge */
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+.bottom-pannel-3{
+    height: 100px;
+   background-color: #222f3d;
+   border-top: 1px solid #3a4553;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+}
+
+.down {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 35px;
+    width: 90px;
+   
+}
+
+.down-1 {
+    height: 35px;
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+
+}
+.commu{
+    color:#CCCCCC;
+    border:1px solid #dddddd;
+    height: 33px;
+    width: 116px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.commu i { 
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.me{
+    padding-left: 10px;
+    font-size: 0.85rem;
+    padding-top: 6px;
+    
+}
+
+.dollar{
+    color:#CCCCCC;
+    width:154px;
+    height: 33px;
+    display: flex;
+    border:1px solid #dddddd;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.country{
+    color:#CCCCCC;
+    height: 33px;
+    width: 140px;
+    display: flex;
+    border:1px solid #dddddd;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+/* last pannel*/
+
+.bottom-pannel-4{
+    height: 77px;
+    background-color: #131a22;
+    color:#CCCCCC;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.bottom-pannel-4 a{
+    color:#CCCCCC;
+    padding-left: 5px;
+
+
+}
+
+
+
+
+
+
 
 
